@@ -36,7 +36,7 @@ header .logo {
 .sidebar {
   float: left;
   width: 210px;
-  height: 800px;
+  height: 960px;
   background-color: rgb(128, 194, 137);
 }
 
@@ -100,6 +100,77 @@ a:hover {
   margin-left: 10px;
   margin-top: 7px;
 }
+
+.skin-challenges{
+
+  margin-top: 10px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  
+}
+
+.skin-goals{
+  margin-top: 10px;
+}
+
+.name{
+  margin-top: 10px;
+}
+
+.skin-challenges .chekbox-label{
+  width: auto;
+}
+
+.button{
+  
+  color: rgb(89, 110, 155);
+  background-color: #7e9dc5;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid rgb(94, 142, 204);
+  border-radius: 15px;
+ 
+  margin-left: 450px;
+  
+
+  
+}
+.display{
+
+  float: left;
+  width: 825px;
+  height: 440px;
+  background-color: #c1d1e6;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+.footer{
+  clear: both;
+  width: 100%;
+  background-color:#7e9dc5;
+  height: 120px;
+}
+
+.empty {
+  background-color: rgb(233, 230, 230);
+  float: left;
+  width: 1433px;
+  height: 140px;
+  display: block;
+  margin-left: 10px;
+  margin-top: 7px;
+  
+}
+.footer h3{
+  padding: 15px;
+  margin-left: 50px;
+  color:rgb(240, 243, 245);
+}
+
+
+
 
 
 
