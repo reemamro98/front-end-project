@@ -25,7 +25,7 @@
   position: absolute;
   top: 20px;
   left: 25px;
-  border-radius: 35px;
+  border-radius: 38px;
   }
   .sidebar {
   float: left;
@@ -175,4 +175,21 @@
   border-radius: 3px;
   padding: 1px;
   font-size: 14px;
+  }
+
+  .btn1{
+    position: absolute;
+  top: 60px;
+  left: 140px;
+  display: block;
+  color:rgb(94, 142, 204);
+  background-color:#c1d1e6;
+  font-weight: bold;
+  
+  text-align: center;
+  border: 2px solid rgb(94, 142, 204);
+  border-radius: 15px;
+  
+  padding: 10px 10px 10px 10px;
+
   }
