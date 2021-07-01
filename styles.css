@@ -29,9 +29,9 @@ header .logo {
 
 .logo{
   position: absolute;
-  top: 25px;
+  top: 20px;
   left: 25px;
-  border-radius: 30px;
+  border-radius: 35px;
 }
 .sidebar {
   float: left;
@@ -132,7 +132,7 @@ a:hover {
   border-radius: 15px;
   
   margin-left:  450px;
-  padding: 15px 15px 15px 15px;
+  padding: 7px 7px 7px 7px;
  
 }
 
@@ -196,6 +196,31 @@ h3{
 }
 
 
+.name input[type='text'] {
+  color: rgb(185, 40, 149);
+  border: 2px solid rgb(127, 161, 224);
+  border-radius: 3px;
+  
+  padding: 1px;
+  font-size: 14px;
+}
 
+.skin-goals input[type='text']{
+  color: rgb(185, 40, 149);
+  border: 2px solid rgb(127, 161, 224);
+  border-radius: 3px;
+  
+  padding: 1px;
+  font-size: 14px;
+}
+
+textarea{
+  color: rgb(185, 40, 149);
+  border: 2px solid rgb(127, 161, 224);
+  border-radius: 3px;
+  
+  padding: 1px;
+  font-size: 14px;
+}
 
 
