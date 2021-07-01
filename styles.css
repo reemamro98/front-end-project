@@ -91,7 +91,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.form {
+.form-area {
   padding: 20px;
   float: left;
   width: 600px;
@@ -121,21 +121,26 @@ a:hover {
   width: auto;
 }
 
-.button{
-  
-  color: rgb(89, 110, 155);
+.btn { 
+  display: block;
+  color:rgb(240, 243, 245);
   background-color: #7e9dc5;
   font-weight: bold;
   padding: 20px;
   text-align: center;
   border: 2px solid rgb(94, 142, 204);
   border-radius: 15px;
+  
+  margin-left:  450px;
+  padding: 15px 15px 15px 15px;
  
-  margin-left: 450px;
-  
-
-  
 }
+
+
+
+.btn:hover {
+background-color: rgb(127, 161, 224);}
+
 .display{
 
   float: left;
@@ -150,7 +155,7 @@ a:hover {
   clear: both;
   width: 100%;
   background-color:#7e9dc5;
-  height: 120px;
+  height: 140px;
 }
 
 .empty {
@@ -165,13 +170,30 @@ a:hover {
 }
 .footer h3{
   padding: 15px;
-  margin-left: 50px;
+  margin-left: 250px;
   color:rgb(240, 243, 245);
+}
+.CONTACT{
+  margin-left: 360px;
+}
+
+ul {
+  list-style: circle;
+}
+
+.copy{
+  margin-left: 1470px;
 }
 
 
+.font{
+  font-family: Merienda;
+  font-size: 13px;
+}
 
-
+h3{
+  font-size: medium;
+}
 
 
 
