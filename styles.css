@@ -2,78 +2,63 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
+  }
+  body {
   height: 1200px;
-}
-header{
-  
+  }
+  header{
   background-color: #7e9dc5;
-  
   display: block;
   text-align: center;
   width: auto;
   height: 140px;
-}
-
-header h1 {
-
+  }
+  header h1 {
   padding: 65px 0;
   color: rgb(240, 243, 245);
-}
-
-header .logo {
+  }
+  header .logo {
   height: 100px;
   width: 100px;
-}
-
-.logo{
+  }
+  .logo{
   position: absolute;
-  top: 25px;
+  top: 20px;
   left: 25px;
-  border-radius: 30px;
-}
-.sidebar {
+  border-radius: 35px;
+  }
+  .sidebar {
   float: left;
   width: 210px;
   height: 960px;
   background-color: rgb(128, 194, 137);
-}
-
-.menu {
+  }
+  .menu {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  
-}
-
-
-
-a:link,
-a:visited {
+  }
+  a:link,
+  a:visited {
   color: #f6fff6;
   text-decoration: none;
-}
-a:hover {
+  }
+  a:hover {
   text-decoration: underline;
-}
-
-
-.features-menu {
+  }
+  .features-menu {
   display: flex;
   flex-direction: column;
- 
   padding-top: 60px;
-}
-.features-menu li {
+  }
+  .features-menu li {
   list-style: none;
   border-bottom: 1px solid #FFF;
-
   padding: 0 40px 10px 20px;
   margin: 10px;
   font-size: 17px;
-}
-.content {
+  }
+  .content {
   padding: 20px;
   float: left;
   width: 1435px;
@@ -81,17 +66,15 @@ a:hover {
   background-color: #c1d1e6;
   margin-left: 10px;
   margin-top: 7px;
-}
-.article-image {
-
+  }
+  .article-image {
   float: left;
   width: 300px;
   height: 200px;
   margin-right: 20px;
   margin-bottom: 20px;
-}
-
-.form-area {
+  }
+  .form-area {
   padding: 20px;
   float: left;
   width: 600px;
@@ -99,29 +82,22 @@ a:hover {
   background-color: #c1d1e6;
   margin-left: 10px;
   margin-top: 7px;
-}
-
-.skin-challenges{
-
+  }
+  .skin-challenges{
   margin-top: 10px;
   /* display: flex; */
   /* flex-direction: column; */
-  
-}
-
-.skin-goals{
+  }
+  .skin-goals{
   margin-top: 10px;
-}
-
-.name{
+  }
+  .name{
   margin-top: 10px;
-}
-
-.skin-challenges .chekbox-label{
+  }
+  .skin-challenges .chekbox-label{
   width: auto;
-}
-
-.btn { 
+  }
+  .btn { 
   display: block;
   color:rgb(240, 243, 245);
   background-color: #7e9dc5;
@@ -130,35 +106,26 @@ a:hover {
   text-align: center;
   border: 2px solid rgb(94, 142, 204);
   border-radius: 15px;
-  
   margin-left:  450px;
-  padding: 15px 15px 15px 15px;
- 
-}
-
-
-
-.btn:hover {
-background-color: rgb(127, 161, 224);}
-
-.display{
-
+  padding: 7px 7px 7px 7px;
+  }
+  .btn:hover {
+  background-color: rgb(127, 161, 224);}
+  .display{
   float: left;
   width: 825px;
   height: 440px;
   background-color: #c1d1e6;
   margin-left: 10px;
   margin-top: 7px;
-}
-
-.footer{
+  }
+  .footer{
   clear: both;
   width: 100%;
   background-color:#7e9dc5;
   height: 140px;
-}
-
-.empty {
+  }
+  .empty {
   background-color: rgb(233, 230, 230);
   float: left;
   width: 1433px;
@@ -166,36 +133,46 @@ background-color: rgb(127, 161, 224);}
   display: block;
   margin-left: 10px;
   margin-top: 7px;
-  
-}
-.footer h3{
+  }
+  .footer h3{
   padding: 15px;
   margin-left: 250px;
   color:rgb(240, 243, 245);
-}
-.CONTACT{
+  }
+  .CONTACT{
   margin-left: 360px;
-}
-
-ul {
+  }
+  ul {
   list-style: circle;
-}
-
-.copy{
+  }
+  .copy{
   margin-left: 1470px;
-}
-
-
-.font{
+  }
+  .font{
   font-family: Merienda;
   font-size: 13px;
-}
-
-h3{
+  }
+  h3{
   font-size: medium;
-}
-
-
-
-
-
+  }
+  .name input[type='text'] {
+  color: rgb(185, 40, 149);
+  border: 2px solid rgb(127, 161, 224);
+  border-radius: 3px;
+  padding: 1px;
+  font-size: 14px;
+  }
+  .skin-goals input[type='text']{
+  color: rgb(185, 40, 149);
+  border: 2px solid rgb(127, 161, 224);
+  border-radius: 3px;
+  padding: 1px;
+  font-size: 14px;
+  }
+  textarea{
+  color: rgb(185, 40, 149);
+  border: 2px solid rgb(127, 161, 224);
+  border-radius: 3px;
+  padding: 1px;
+  font-size: 14px;
+  }
