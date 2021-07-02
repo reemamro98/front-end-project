@@ -25,7 +25,7 @@
   position: absolute;
   top: 20px;
   left: 25px;
-  border-radius: 38px;
+  border-radius: 40px;
   }
   .sidebar {
   float: left;
@@ -178,10 +178,10 @@
   }
 
   .btn1{
-    position: absolute;
+  position: absolute;
   top: 60px;
   left: 140px;
-  display: block;
+ 
   color:rgb(94, 142, 204);
   background-color:#c1d1e6;
   font-weight: bold;
