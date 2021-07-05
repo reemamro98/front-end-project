@@ -145,7 +145,7 @@
   ul {
   list-style: circle;
   }
-  .copy{
+  .copy{ 
   margin-left: 1470px;
   }
   .font{
@@ -177,10 +177,15 @@
   font-size: 14px;
   }
 
+  .relative{ /* give header class  and make it relative in css inorder to make button absloute relative from it*/
+    position: relative;
+  
+  }
+
   .btn1{
-  position: absolute;
-  top: 60px;
-  left: 140px;
+    position: absolute; /*now button is absolute from relative header*/
+    top: 80px;
+    right: 5px;
  
   color:rgb(94, 142, 204);
   background-color:#c1d1e6;
